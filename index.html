@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Guess Cavidan Number</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">0 ilə 20 arasında ədəd seçin </h1>
+        <div class="game-container">
+            <div class="number-box" id="num">?</div>
+            <div class="score"> <span id="score">10</span></div>
+            <div class="highscore"><span id="highscore">0</span></div>
+            <input type="number" id="my-number" min="0" max="20" placeholder="">
+            <div class="button-container">
+                <button id="check">Yoxlayın</button>
+                <button id="restart">Yenidən başlamaq</button>
+            </div>
+        </div>
+        <div class="alert" id="alert"></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
